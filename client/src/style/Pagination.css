@@ -1,0 +1,30 @@
+.pagination-container {
+   margin: 20px 0 20px 0;
+   text-align: center;
+}
+
+button {
+   background-color: black;
+   border-radius: 5px;
+   color: white;
+   border: transparent 2px solid;
+   padding: 10px;
+   margin: 0 5px 0 5px;
+}
+
+button:hover {
+   background-color: white;
+   color: black;
+   border: 2px solid black;
+   cursor: pointer;
+}
+
+.current-page {
+   background-color: white;
+   color: black;
+   border: 2px solid black;
+}
+
+.current-page:hover {
+   cursor:auto
+}

@@ -1,0 +1,16 @@
+.filter-container {
+   display:flex;
+   flex-direction: column;
+   flex-shrink: 0;
+   padding: 20px 40px 0 10px;
+   border-right: 1px solid black;
+}
+.filter-button {
+   width: 70%;
+   text-align: center;
+}
+
+.price-input {
+   width: 70%;
+   margin-bottom: 10px;
+}

@@ -1,0 +1,84 @@
+body {
+   font-family: 'Roboto';
+   margin: 0px 20px;
+}
+
+h1 {
+   font-size: 300;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.search-container {
+   display: flex;
+   justify-content: space-around;
+   position: sticky;
+   top: 0;
+   z-index: 2;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-align: center;
+   background-color: white;
+}
+.flex-container {
+   display: flex;
+   gap: 35px;
+   justify-content: space-evenly;
+}
+
+.products-container {
+   justify-self: center;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: stretch;
+   justify-content:left;
+}
+
+.search-bar {
+   flex: 2;
+   margin-left: 30px;
+   margin-right: 50px;
+   height: 35px;
+   border-radius: 5px;
+   border: 2px solid black;
+   box-shadow:
+      0px 0.4px 0.7px rgba(0, 0, 0, 0.017),
+      0px 0.8px 1.7px rgba(0, 0, 0, 0.024),
+      0px 1.3px 3.1px rgba(0, 0, 0, 0.03),
+      0px 2.3px 5.6px rgba(0, 0, 0, 0.036),
+      0px 4.8px 10.4px rgba(0, 0, 0, 0.043),
+      0px 18px 25px rgba(0, 0, 0, 0.06);
+   font-size: 15px;
+   padding: 0px 10px 0 10px;
+}
+
+.search-bar:focus {
+   outline: none;
+}
+
+
+.search-button {
+   background-color: black;
+   color: white;
+   border: transparent solid 2px;
+   border-radius: 5px;
+   width: 200px;
+   margin-right: 30px;
+   box-shadow:
+      0px 0.4px 0.7px rgba(0, 0, 0, 0.017),
+      0px 0.8px 1.7px rgba(0, 0, 0, 0.024),
+      0px 1.3px 3.1px rgba(0, 0, 0, 0.03),
+      0px 2.3px 5.6px rgba(0, 0, 0, 0.036),
+      0px 4.8px 10.4px rgba(0, 0, 0, 0.043),
+      0px 18px 25px rgba(0, 0, 0, 0.06);
+   font-weight: bold;
+}
+
+.search-button:hover {
+   cursor: pointer;
+   color: black;
+   border: 2px solid black;
+   background-color: white;
+
+}
